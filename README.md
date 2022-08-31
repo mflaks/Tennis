@@ -20,6 +20,7 @@ The observation space consists of 24 variables corresponding to the position and
 # The Code
 We will create a MADDPG -  Multi Agent Deep Deterministic Policy Gradient 
 - Replay Buffer for all agents
+- Noise
 - 2 Agents
 - For each agent we will create 4 neural networks : Actor, Critic, Actor_Target, Critic_Target
 
