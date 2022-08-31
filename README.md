@@ -17,6 +17,12 @@ Two continuous actions are available, corresponding to movement toward (or away 
 ## State
 The observation space consists of 24 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation.
 
+# The Code
+We will create a MADDPG -  Multi Agent Deep Deterministic Policy Gradient 
+- Replay Buffer for all agents
+- 2 Agents
+- For each agent we will create 4 neural networks : Actor, Critic, Actor_Target, Critic_Target
+
 # Installation
 Step 1: Activate the Environment
 If you haven't already, please follow the instructions in the DRLND GitHub repository to set up your Python environment. These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
